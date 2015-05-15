@@ -1,4 +1,4 @@
-name: yaml-parse
+name: Yaml Parse
 version: 1.0.0
 author: Stefan Farestam (implementation) + Brandon Romano (Ash wrapper)
 license: MIT
