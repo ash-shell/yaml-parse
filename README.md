@@ -6,7 +6,7 @@ Ash-Yaml-Parse is an [Ash](https://github.com/BrandonRomano/ash) module that off
 
 ### Ash Users
 
-TBD
+Ash-Yaml-Parse is part of the Ash core, so you can just start using it in your Ash modules.
 
 ### Non Ash Users
 
