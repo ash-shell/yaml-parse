@@ -1,12 +1,12 @@
-# Ash-Yaml-Parse
+# Yaml-Parse
 
-Ash-Yaml-Parse is an [Ash](https://github.com/BrandonRomano/ash) module that offers YAML parsing in Bash.
+Yaml-Parse is an [Ash](https://github.com/ash-shell/ash) module that offers YAML parsing in Bash.
 
 ## Getting started
 
 ### Ash Users
 
-Ash-Yaml-Parse is part of the Ash core, so you can just start using it in your Ash modules.
+Yaml-Parse is part of the Ash core, so you can just start using it in your Ash modules.
 
 ### Non Ash Users
 
