@@ -23,3 +23,20 @@ YamlParse__parse() {
       }
    }'
 }
+
+
+#################################################
+# @param $1: The yaml file to check if there is
+#       a key
+# @param $2: The key to check if it exists
+# @echo: $Ash__true if the key exists,
+#       $Ash__false otherwise
+#################################################
+YamlParse__has_key() {
+    line=$(grep -x "^$2:.*" "$1")
+    if [[ "$line" != "" ]]; then
+        echo "$Ash__true"
+    else
+        echo "$Ash__false"
+    fi
+}
