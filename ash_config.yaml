@@ -1,4 +1,3 @@
-name: Yaml Parse
-version: 1.0.0
-author: Stefan Farestam (implementation) + Brandon Romano (Ash wrapper)
-license: MIT
+name: yamlparse
+package: github.com/ash-shell/yaml-parse
+default_alias: yamlparse
