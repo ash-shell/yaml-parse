@@ -12,6 +12,7 @@ Our YAML file:
 
 ```YAML
 name: "Brandon Romano"
+location: "Brooklyn, NYC"
 ```
 
 Here's some example usage:
@@ -19,12 +20,14 @@ Here's some example usage:
 ```sh
 eval $(YamlParse__parse "./path/to/file.yaml" "Config_")
 echo "$Config_name"
+echo "$Config_location"
 ```
 
 Outputs:
 
 ```
 Brandon Romano
+Brooklyn, NYC
 ```
 
 ## Credits
