@@ -4,13 +4,7 @@ Yaml-Parse is an [Ash](https://github.com/ash-shell/ash) module that offers YAML
 
 ## Getting started
 
-### Ash Users
-
 Yaml-Parse is part of the Ash core, so you can just start using it in your Ash modules.
-
-### Non Ash Users
-
-Add in `. {path_to_yaml_parse.sh}/yaml_parse.sh` to the top of your script and you should be good to go.
 
 ## Example Usage
 
@@ -23,9 +17,6 @@ name: "Brandon Romano"
 Here's some example usage:
 
 ```sh
-# Importing
-. lib/yaml_parse.sh
-
 eval $(YamlParse__parse "./path/to/file.yaml" "Config_")
 echo "$Config_name"
 ```
@@ -42,4 +33,4 @@ All of the heavy lifting was done by [Stefan Farestam](https://github.com/sfares
 
 ## License
 
-[MIT](license.txt)
+[MIT](LICENSE.md)

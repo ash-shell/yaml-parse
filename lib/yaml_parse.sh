@@ -6,6 +6,10 @@
 #
 # Typical Usage:
 # eval $(YamlParse__parse sample.yml "PREFIX_")
+#
+# @param $1: The yaml file to parse
+# @param $2: The prefix to append to all of the
+#       variables to be created
 #################################################
 YamlParse__parse() {
    local prefix=$2
@@ -33,7 +37,7 @@ YamlParse__parse() {
 #       $Ash__false otherwise
 #################################################
 YamlParse__has_key() {
-    line=$(grep -x "^$2:.*" "$1")
+    local line=$(grep -x "^$2:.*" "$1")
     if [[ "$line" != "" ]]; then
         echo "$Ash__true"
     else
