@@ -32,7 +32,7 @@ Brooklyn, NYC
 
 ## Credits
 
-All of the heavy lifting was done by [Stefan Farestam](https://github.com/sfarestam) in response to this [StackOverflow Post](http://stackoverflow.com/questions/5014632/how-can-i-parse-a-yaml-file-from-a-linux-shell-script).  This is simply a Ash wrapper.
+All of the heavy lifting was done by [Stefan Farestam](https://github.com/sfarestam) in response to this [StackOverflow Post](http://stackoverflow.com/questions/5014632/how-can-i-parse-a-yaml-file-from-a-linux-shell-script).  This is simply an Ash wrapper.
 
 ## License
 
