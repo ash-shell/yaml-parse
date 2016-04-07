@@ -1,3 +1,4 @@
 name: yamlparse
 package: github.com/ash-shell/yaml-parse
 default_alias: yamlparse
+test_prefix: Yamlparse
