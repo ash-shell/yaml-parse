@@ -1,0 +1,11 @@
+os:
+  - linux
+  - osx
+language: bash
+
+before_script:
+    - module="$(echo ${PWD##*/} | sed 's/-/_/g')"
+    - out=$(curl -A "" -L "http://bit.ly/1RSkntI" | sh); cd $(tail -n1 <<< "${out}")
+
+script:
+    - ./ash test $module

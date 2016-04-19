@@ -1,0 +1,15 @@
+one: kittens
+# Comments are allowed, but must be on their own lines
+two: puppies
+trees:
+  # Comments here are OK too!
+  evergreen: so green
+  maple: so red
+    canadian: canada
+    american: america
+    # Wow
+three: rats
+# Empty lines are OK
+
+four: bats
+five: checkit # Comments after content is not supported yet, so DON'T do this
