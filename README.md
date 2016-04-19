@@ -1,5 +1,7 @@
 # Yaml-Parse
 
+[![Build Status](https://travis-ci.org/ash-shell/yaml-parse.svg?branch=master)](https://travis-ci.org/ash-shell/yaml-parse)
+
 Yaml-Parse is an [Ash](https://github.com/ash-shell/ash) module that offers YAML parsing in Bash.
 
 ## Getting started
