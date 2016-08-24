@@ -1,7 +1,7 @@
 #!/bin/bash
 
-local file="$Ash__ACTIVE_MODULE_DIRECTORY/extra/example.yaml"
-local prefix="YamlParse_output_"
+declare file="$Ash__ACTIVE_MODULE_DIRECTORY/extra/example.yaml"
+declare prefix="YamlParse_output_"
 eval $(YamlParse__parse "$file" "$prefix")
 
 #################################################

@@ -39,7 +39,7 @@ Tests are written using the [official test](https://github.com/ash-shell/test) m
 You can run tests by running this command, after Yaml-Parse is installed:
 
 ```sh
-ash test yamlparse
+ash test yaml-parse
 ```
 
 ## Credits
